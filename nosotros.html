@@ -1,81 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="resources/GDT logo.png">
     <title>GDT Consulting - Nosotros</title>
 </head>
+
 <body>
     <header>
         <div class="header-div">
-            <img src="resources/GDT title.png" class="top-left-logo">
+            <img src="resources/GDT title.png" class="top-left-logo" alt="GDT Consulting">
             <nav class="header-nav">
-                <a href="index.html"> Inicio </a>
-                <a href="nosotros.html"> Sobre nosotros </a>
-                <a href="#"> Contáctanos </a>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#">Contáctanos</a>
             </nav>
         </div>
     </header>
 
-    
-    <div class="body3-div">
-        <!-- Perfil 1 -->
-        <div class="body1-div">
-            <img src="resources/nosotros/yo.jpeg" class="profile-img">
-            <div class="body1-text-div">
-                <h1>Jefe del proyecto</h1>
-                <p> Javiera Montecinos </p>
-                <p> Ingeniero Civil en Computación </p>
+    <div class="container nosotors-container">
+        <h1 style="text-align: center; margin-top: 40px;">Nuestro Equipo</h1>
+        
+        <div class="nosotros-profiles">
+            <div class="profile-card">
+                <img src="resources/nosotros/yo.jpeg" class="profile-img" alt="Javiera Montecinos">
+                <div class="profile-text">
+                    <h1>Jefe del proyecto</h1>
+                    <p>Javiera Montecinos</p>
+                    <p>Ingeniero Civil en Computación</p>
+                </div>
             </div>
-        </div>
-        <!-- Perfil 2 -->
-        <div class="body1-div" style="text-align: right;">
-            <div class="body1-text-div">
-                <h1> Líder técnico </h1>
-                <p> Oscar Cheuque </p>
-                <p> Ingeniero Civil Eléctrico </p>
+            
+            <div class="profile-card reverse" style="text-align: right;">
+                <img src="resources/nosotros/oscar.jpeg" class="profile-img" alt="Oscar Cheuque">
+                <div class="profile-text">
+                    <h1>Líder técnico</h1>
+                    <p>Oscar Cheuque</p>
+                    <p>Ingeniero Civil Eléctrico</p>
+                </div>
             </div>
-            <img src="resources/nosotros/oscar.jpeg" class="profile-img">
-        </div>
 
-        <!-- Perfil 3 -->
-        <div class="body1-div">
-            <img src="resources/nosotros/miya.jpeg" class="profile-img">
-            <div class="body1-text-div">
-                <h1>QA (Quality assurance)</h1>
-                <p> Millaray Lara </p>
-                <p> Ingeniero Civil en Computación </p>
+            <div class="profile-card">
+                <img src="resources/nosotros/miya.jpeg" class="profile-img" alt="Millaray Lara">
+                <div class="profile-text">
+                    <h1>QA (Quality assurance)</h1>
+                    <p>Millaray Lara</p>
+                    <p>Ingeniero Civil en Computación</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Perfil 4 -->
-        <div class="body1-div" style="text-align: right;">
-            <div class="body1-text-div">
-                <h1> Administración y finanzas</h1>
-                <p> Martina Vásquez </p>
-                <p> Ingeniero Civil Industrial </p>
+            <div class="profile-card reverse" style="text-align: right;">
+                <img src="resources/nosotros/marti.jpeg" class="profile-img" alt="Martina Vásquez">
+                <div class="profile-text">
+                    <h1>Administración y finanzas</h1>
+                    <p>Martina Vásquez</p>
+                    <p>Ingeniero Civil Industrial</p>
+                </div>
             </div>
-            <img src="resources/nosotros/marti.jpeg" class="profile-img">
         </div>
     </div>
     
-
-
     <footer>
-        <div class="footer-div">
-            <img src="resources/GDT logo.png" class="footer-logo">
-            <p style="color: #030027;"> GDT Consulting (Gestión de Datos Territoriales)</p>
-        </div>
+        <div class="footer-container">
+            <div class="footer-info">
+                <img src="resources/GDT logo.png" class="footer-logo" alt="GDT Logo">
+                <p>GDT Consulting (Gestión de Datos Territoriales)</p>
+            </div>
 
-        <div class="footer-div">
-            <div class="footer-inner-div">
-                <h4> Acerca de nosotros </h4>
-                <p style="color: #030027; font-size: 14px;">GDT Consulting es una empresa consultora basada en Chile que se dedica a apoyar la expansión de las empresas de telecomunicaciones, con un enfoque en disminuir la brecha digital. Nuestros servicios van dirigidos a empresas privadas en la industria de las telecomunicaciones.</p>
-                <h4> Otros links </h4>
+            <div class="footer-links">
+                <div class="footer-info-text">
+                    <h4>Acerca de nosotros</h4>
+                    <p>GDT Consulting es una empresa consultora basada en Chile que se dedica a apoyar la expansión de las empresas de telecomunicaciones, con un enfoque en disminuir la brecha digital. Nuestros servicios van dirigidos a empresas privadas en la industria de las telecomunicaciones.</p>
+                </div>
+                <div class="footer-other-links">
+                    <h4>Otros links</h4>
+                    <p>En construcción...</p>
+                </div>
             </div>
         </div>
     </footer>
+
 </body>
 </html>

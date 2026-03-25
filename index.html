@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="resources/GDT logo.png">
     <title>GDT Consulting</title>
@@ -12,55 +17,66 @@
 
     <header>
         <div class="header-div">
-            <img src="resources/GDT title.png" class="top-left-logo">
+            <img src="resources/GDT title.png" class="top-left-logo" alt="GDT Consulting">
             <nav class="header-nav">
-                <a href="index.html"> Inicio </a>
-                <a href="nosotros.html"> Sobre nosotros </a>
-                <a href="#"> Contáctanos </a>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#">Contáctanos</a>
             </nav>
         </div>
     </header>
 
-    
-    <div class="body1-div">
-        <div class="body1-text-div">
+    <div class="container section-cols">
+        <div class="section-text">
             <h1>Nuestra misión</h1>
             <p>Ofrecer herramientas tecnológicas a nuestros clientes para ayudar a cerrar la brecha digital.</p>
         </div>
-
-        <img src="resources/telecomunicaciones.jpg" class="body1-img">
+        <div class="section-img-div">
+            <img src="resources/telecomunicaciones.jpg" class="body1-img" alt="Telecomunicaciones">
+        </div>
     </div>
 
     <div class="body2-div">
-        <h3 style="font-size: 40px; text-align: center;"><i>Queremos ser la empresa número uno en implementación de telecomunicaciones a nivel nacional.</i></h3>
-    </div>
-
-    <div class="body1-div">
-        <img src="resources/geolocalizacion.jpg" class="body1-img">
-
-        <div class="body1-text-div">
-            <h1 style="text-align: right;">Servicios</h1>
-            <p style="text-align: right;">Nosotros entregamos un servicio de <strong>georreferenciación</strong>, donde indicamos qué sectores del país <strong>carecen de servicios telecomunicacionales</strong>. Nuestro objetivo es guiar a nuestro cliente a tomar decisiones a largo plazo respaldadas por datos reales.</p>
+        <div class="container">
+            <h3>Queremos ser la empresa número uno en implementación de telecomunicaciones a nivel nacional.</h3>
         </div>
     </div>
 
-    <div class="body4-div">
-        <h1> Propuesta de valor </h1>
-        <p></p>
+    <div class="container section-cols reverse">
+        <div class="section-text" style="text-align: right;">
+            <h1>Servicios</h1>
+            <p>Nosotros entregamos un servicio de <strong>georreferenciación</strong>, donde indicamos qué sectores del país <strong>carecen de servicios telecomunicacionales</strong>. Esto lo hacemos por medio de un <strong>mapa interactivo</strong>. Nuestro objetivo es guiar al cliente a tomar decisiones a largo plazo respaldadas por datos verídicos.</p>
+        </div>
+        <div class="section-img-div">
+            <img src="resources/geolocalizacion.jpg" class="body1-img" alt="Geolocalización">
+        </div>
     </div>
 
-    <!-- FOOTER -->
+    <div class="hero-image" style="background-image: url('resources/background-image 4.jpg');"></div>
+
+    <div class="container body4-div">
+        <h1>Propuesta de valor</h1>
+        <p>Nos enfocamos en disminuir la <strong>brecha digital.</strong> Nuestros servicios permiten a las empresas priorizar la inversión y reducir los riesgos en el largo plazo, con una interfaz amigable e interactiva.</p>
+    </div>
+
+    <div class="hero-image" style="background-image: url('resources/background-image 3.jpg'); height: 200px;"></div>
+
     <footer>
-        <div class="footer-div">
-            <img src="resources/GDT logo.png" class="footer-logo">
-            <p style="color: #030027;"> GDT Consulting (Gestión de Datos Territoriales)</p>
-        </div>
+        <div class="footer-container">
+            <div class="footer-info">
+                <img src="resources/GDT logo.png" class="footer-logo" alt="GDT Logo">
+                <p>GDT Consulting (Gestión de Datos Territoriales)</p>
+            </div>
 
-        <div class="footer-div">
-            <div class="footer-inner-div">
-                <h4> Acerca de nosotros </h4>
-                <p style="color: #030027; font-size: 14px;">GDT Consulting es una empresa consultora basada en Chile que se dedica a apoyar la expansión de las empresas de telecomunicaciones, con un enfoque en disminuir la brecha digital. Nuestros servicios van dirigidos a empresas privadas en la industria de las telecomunicaciones.</p>
-                <h4> Otros links </h4>
+            <div class="footer-links">
+                <div class="footer-info-text">
+                    <h4>Acerca de nosotros</h4>
+                    <p>GDT Consulting es una empresa consultora basada en Chile que se dedica a apoyar la expansión de las empresas de telecomunicaciones, con un enfoque en disminuir la brecha digital. Nuestros servicios van dirigidos a empresas privadas en la industria de las telecomunicaciones.</p>
+                </div>
+                <div class="footer-other-links">
+                    <h4>Otros links</h4>
+                    <p>En construcción...</p>
+                </div>
             </div>
         </div>
     </footer>
